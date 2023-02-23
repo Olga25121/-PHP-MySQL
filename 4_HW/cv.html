@@ -1,28 +1,3 @@
-<?php
-$experiance = [
-    [
-        'name' => 'Первооткрыватель квартир',
-        'date' => 'Jan 2023',
-        'description' => 'Энергетический эксперт с многолетним стажем. Выезжал на различные объекты в городе и области.
-         Хорошо знает жилищный фонд. В своей работе учитывает особенности планировки и этажность.
-         Прорабатывает глубинные слои энергетики, хорошо чувствует астральные сущности и мягко устраняет их. 
-         Оставляет светлый, легкий, позитивный фон. Гарантия.',
-    ],
-    [
-        'name' => 'Тестировщик',
-        'date' => 'Apr 2021 - Dec 2022',
-        'description' => 'Cерьезный умный кот, ответственно подходит к выполнению любых хозяйских задумок,
-         лично тестирует спальные места, сантехнику и прочее. Первым открывал две квартиры, карма хорошая, жильцы не жалуются.',
-        
-    ],
-    [
-        'name' => 'Прораб',
-        'date' => 'Jul 2021 - Apr 2022',
-        'description' => 'Имею грандиозный опыт в приеме работ по строительству взлетно-посадочной полосы и рулежных дорог
-         на объекте федерального значения- аэропорт Стригино. Стрессоустойчивость, умение взаимодействовать с людьми',
-    ],
-]; 
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -116,15 +91,29 @@ $experiance = [
         <div class="w3-container w3-card w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
-               <?php for ($i = 0; $i < count($experiance); $i++):?>
-                   <div class="w3-container">
-                   <h5 class="w3-opacity"><b> <?php echo $experiance[$i]['name']; ?></b></h5>
-                   <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $experiance[$i]['date']; ?></h6> 
-                   <p><?php echo $experiance[$i]['description']; ?></p>
-                   <hr>
-                   </div>
-              <?php endfor; ?>
-          <div class="w3-container w3-card w3-white">
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer </b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span
+                class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit
+              sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit
+              sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          </div>
+        </div>
+ 
+        <div class="w3-container w3-card w3-white">
           <h2 class="w3-text-grey w3-padding-16"><i
               class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Образование</h2>
           <div class="w3-container">
